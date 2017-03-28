@@ -1,0 +1,16 @@
+// Place all the styles related to the lab9 controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html,body {
+  background-image: image-url("bg.jpg");
+  background-size: 100%;
+  font-size: large;
+}
+.cell {
+  text-align: center;
+}
+#flag,#result {
+  position: absolute;
+  top: 40%;
+  left: 43%;
+}

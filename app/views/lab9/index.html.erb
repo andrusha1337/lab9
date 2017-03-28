@@ -1,0 +1,7 @@
+<%= form_tag("/lab9/server.json", :method => "get", remote: true, :id => 'flag') do %>
+    <%= label_tag("Введите n:") %>
+    <%= text_field_tag(:n) %> <br/>
+    <br/>
+    <%= submit_tag("Вычислить") %>
+<% end %>
+<div id="result"></div>
